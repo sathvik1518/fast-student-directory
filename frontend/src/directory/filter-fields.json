@@ -1,0 +1,27 @@
+[
+  { "name": "query", "type": "text", "label": "Search by name", "placeholder": "Type a name", "maxLength": 50 },
+  {
+    "name": "className",
+    "type": "select",
+    "label": "Class",
+    "options": [
+      { "value": "", "label": "All classes" },
+      { "value": "6A", "label": "Class 6A" }, { "value": "6B", "label": "Class 6B" }, { "value": "6C", "label": "Class 6C" },
+      { "value": "7A", "label": "Class 7A" }, { "value": "7B", "label": "Class 7B" }, { "value": "7C", "label": "Class 7C" },
+      { "value": "8A", "label": "Class 8A" }, { "value": "8B", "label": "Class 8B" }, { "value": "8C", "label": "Class 8C" },
+      { "value": "9A", "label": "Class 9A" }, { "value": "9B", "label": "Class 9B" }, { "value": "9C", "label": "Class 9C" },
+      { "value": "10A", "label": "Class 10A" }, { "value": "10B", "label": "Class 10B" }, { "value": "10C", "label": "Class 10C" }
+    ]
+  },
+  {
+    "name": "sort",
+    "type": "select",
+    "label": "Sort by score",
+    "options": [
+      { "value": "none", "label": "Default order" },
+      { "value": "desc", "label": "High to low" },
+      { "value": "asc", "label": "Low to high" }
+    ]
+  },
+  { "name": "problemsOnly", "type": "checkbox", "label": "Show only broken records" }
+]
